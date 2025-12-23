@@ -1,0 +1,110 @@
+# ==============================
+# Build results
+# ==============================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+# ==============================
+# Visual Studio
+# ==============================
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.pdb
+*.log
+*.tlog
+*.ilk
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ==============================
+# .NET / ASP.NET Core
+# ==============================
+project.lock.json
+project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Publish output
+publish/
+app.publish/
+
+# ==============================
+# Configuration / Secrets
+# ==============================
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# User secrets (ASP.NET Core)
+secrets.json
+
+# Environment files
+.env
+.env.*
+
+# ==============================
+# Logs & runtime
+# ==============================
+logs/
+*.log
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==============================
+# Test results
+# ==============================
+TestResults/
+*.trx
+
+# ==============================
+# NuGet
+# ==============================
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# ==============================
+# Docker
+# ==============================
+docker-compose.override.yml
+
+# ==============================
+# Coverage reports
+# ==============================
+coverage/
+coverage.cobertura.xml
+
+# ==============================
+# Node (if frontend is included)
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ==============================
+# Others
+# ==============================
+*.tmp
+*.temp
+*.zip
+*.rar

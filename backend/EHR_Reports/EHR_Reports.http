@@ -1,0 +1,6 @@
+@EHR_Reports_HostAddress = http://localhost:5282
+
+GET {{EHR_Reports_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

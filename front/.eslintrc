@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "max-len": ["error", {
+      "code": 80,
+      "tabWidth": 2,
+      "ignoreComments": true,
+      "ignoreUrls": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "ignorePattern": "^import\\s.+\\sfrom\\s.+;$"
+    }]
+  },
+  "ignorePatterns": [
+    "plopfile.js",
+    "copy-react-scripts.js",
+    "copy-storybook-scripts.js",
+    "**/*.html"
+  ]
+}

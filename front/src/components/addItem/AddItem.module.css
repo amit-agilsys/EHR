@@ -1,0 +1,49 @@
+/* Button container */
+.c_button {
+    /* Dark gradient from #10182b to #192238 */
+    background: linear-gradient(140deg, #10182b 0%, #192238 100%);
+    border-radius: 40px;
+    font-size: 14px;
+    text-align: left;
+    padding: 2px 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.c_button .c_main {
+    border-radius: 35px;
+    color: rgba(255, 255, 255, 1);
+    padding: 5px 20px 5px 10px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+}
+
+.c_ico .c_blur {
+    background: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ico_text {
+    color: #10182b;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.c_ico {
+    position: relative;
+    margin-right: 12px;
+}
+
+.c_ico .ico_text {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
